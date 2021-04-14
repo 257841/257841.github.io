@@ -1,4 +1,8 @@
 #include<stdio.h>
+/**
+ * @brief 
+ * 
+ */
 typedef struct complex
 {
     float real;float imaginary;
@@ -19,6 +23,13 @@ printf("difference:%f+j%f\n",res2.real,res2.imaginary);
 return 0;
 
 }
+/**
+ * @brief 
+ * 
+ * @param n1 
+ * @param n2 
+ * @return comp 
+ */
 comp add(comp n1,comp n2)
 {
     comp temp;
